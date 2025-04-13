@@ -1,4 +1,4 @@
-package WebApplication.PageObjectModel.appvwo;
+package WebApplication.Pages.Pagefactory.PageObjectModel.appvwo;
 
 
 import WebApplication.Base.CommonToAllPage;

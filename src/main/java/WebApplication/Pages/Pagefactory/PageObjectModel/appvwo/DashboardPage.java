@@ -1,4 +1,4 @@
-package WebApplication.PageObjectModel.appvwo;
+package WebApplication.Pages.Pagefactory.PageObjectModel.appvwo;
 
 import WebApplication.Utility.WaitHelpers;
 import org.openqa.selenium.By;
@@ -20,7 +20,5 @@ public class DashboardPage {
         WaitHelpers.waitJVM(10000);
         return driver.findElement(userNameOnDashboard).getText();
     }
-
-
 
 }

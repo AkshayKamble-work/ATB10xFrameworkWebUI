@@ -1,13 +1,12 @@
 package WebApplication.Tests.POM.APPVWO;
 
 import WebApplication.Driver.DriverManager;
-import WebApplication.PageObjectModel.appvwo.FreetrailPage;
-import WebApplication.PageObjectModel.appvwo.LoginPage;
+import WebApplication.Pages.Pagefactory.PageObjectModel.appvwo.FreetrailPage;
+import WebApplication.Pages.Pagefactory.PageObjectModel.appvwo.LoginPage;
 import WebApplication.Utility.PropertiesReader;
 import WebApplication.Utility.WaitHelpers;
 import io.qameta.allure.Description;
 import org.testng.Assert;
-import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;

@@ -7,7 +7,6 @@ import java.util.Properties;
 
 public class PropertiesReader {
 
-
     // File - data.properties -> key -> value
 
     public static String readKey(String key) {

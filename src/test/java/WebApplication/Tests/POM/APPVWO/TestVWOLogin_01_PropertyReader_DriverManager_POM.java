@@ -1,8 +1,8 @@
 package WebApplication.Tests.POM.APPVWO;
 
 import WebApplication.Driver.DriverManager;
-import WebApplication.PageObjectModel.appvwo.DashboardPage;
-import WebApplication.PageObjectModel.appvwo.LoginPage;
+import WebApplication.Pages.Pagefactory.PageObjectModel.appvwo.DashboardPage;
+import WebApplication.Pages.Pagefactory.PageObjectModel.appvwo.LoginPage;
 import WebApplication.Utility.PropertiesReader;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;

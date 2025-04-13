@@ -1,4 +1,4 @@
-package WebApplication.PageObjectModel.appvwo;
+package WebApplication.Pages.Pagefactory.PageObjectModel.appvwo;
 
 import org.openqa.selenium.WebDriver;
 
