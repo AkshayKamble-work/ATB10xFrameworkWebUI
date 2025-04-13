@@ -1,1 +1,134 @@
-# Selenium Automation Framework(with Java)- Author - Akshay Kamble- Java, Selenium, TestNG- Maven, AssertJ, POM- Thread Local Support → Thread Safety- Allure Report- Excel Sheet for Test Data → Data Provider, Apache POI- Read the username and password from Properties-- TestNG, @Test, Before and After Method.- Cloud Grids - BrowserStack, LambdaTest- SonarLint, Java > 22- Run Local and on Selenoid Integration.<img width="1024" alt="Screenshot 2023-10-31 at 12 27 14 PM" src="https://github.com/PramodDutta/AdvanceSeleniumFrameworkTTA/assets/1409610/02b0ef3b-1165-46cf-8c9d-89e41b17032f">`mvn test -Dsurefire.suiteXmlFiles=testng.xml`<img width="1215" alt="Screenshot 2023-10-31 at 12 27 28 PM" src="https://github.com/PramodDutta/AdvanceSeleniumFrameworkTTA/assets/1409610/b0905741-d88d-4559-93c2-65433e668170">
+## Selenium Framework  🚀 
+Author - Akshay Kamble
+
+## 📌 Introduction
+This repository is a comprehensive guide to learning Selenium with Java, covering essential concepts and integrating various tools such as TestNG, Maven, Allure Report, Jenkins, and more. This guide provides practical examples to help you master Selenium automation testing.
+
+---
+
+## 🚀 Tech Stack for Selenium
+
+| Technology  | Description |
+|-------------|------------|
+| **Java** | Programming language for Selenium automation |
+| **TestNG** | Test framework for organizing and executing test cases |
+| **Maven** | Build automation tool to manage dependencies (pom.xml) |
+| **Allure Report** | Reporting framework for detailed test execution reports |
+| **Jenkins** | CI/CD tool to automate test execution |
+| **GIT** | Version control system to manage codebase |
+| **log4j** | Logging framework for better debugging (log4j.xml) |
+| **Selenium** | Browser automation framework |
+| **Github** | Code hosting platform for collaboration |
+| **DDT (Apache POI)** | Data-Driven Testing with Excel (Apache POI) |
+| **Test Data** | External test data storage (TestData.xlsx) |
+
+---
+
+## 📚 Topics Covered
+
+### 🔹 1. Selenium Basics
+- Introduction to Selenium
+- Setting up Selenium WebDriver
+- Locators (ID, Name, XPath, CSS Selector, etc.)
+- Handling Web Elements (Click, SendKeys, GetText)
+- Browser Navigation (Back, Forward, Refresh)
+
+### 🔹 2. Advanced Selenium
+- Handling Dropdowns and Alerts
+- Handling Frames and Windows
+- Mouse and Keyboard Actions (Actions Class)
+- Taking Screenshots in Selenium
+- Handling AJAX Elements
+- Implicit and Explicit Waits
+
+### 🔹 3. TestNG (testng.xml)
+- TestNG Installation and Setup
+- Writing Test Cases using TestNG
+- TestNG Annotations (@Test, @BeforeClass, @AfterClass, etc.)
+- Assertions in TestNG
+- Data-Driven Testing with TestNG (DataProvider)
+- Parallel Execution with TestNG.xml
+
+### 🔹 4. Maven (pom.xml)
+- Setting up Maven Project
+- Adding Selenium and TestNG Dependencies
+- Running Tests with Maven Commands
+
+### 🔹 5. Allure Report Integration
+- Installing and Configuring Allure
+- Generating Reports with Allure
+- Analyzing Test Results with Allure Reports
+
+### 🔹 6. Jenkins for CI/CD
+- Installing and Setting up Jenkins
+- Running Selenium Tests from Jenkins
+- Integrating Allure Reports in Jenkins
+
+### 🔹 7. GIT and GitHub
+- Setting up GIT
+- Pushing Selenium Project to GitHub
+- Version Control Best Practices
+
+### 🔹 8. Logging with Log4j
+- Setting up Log4j Configuration (log4j.xml)
+- Logging Framework Implementation
+
+### 🔹 9. Data-Driven Testing (DDT) with Apache POI
+- Reading Data from Excel Files (TestData.xlsx)
+- Using Excel Data in Selenium Test Cases
+
+### 🔹 10. Test Data Management
+- Creating and Managing Test Data
+- Using External Files for Test Data
+
+---
+
+## 🔧 Prerequisites
+Before getting started, ensure you have the following installed:
+- Java (JDK 8 or higher)
+- Eclipse/IntelliJ IDE
+- Maven
+- Git
+- Jenkins
+
+---
+
+## 🛠 Installation Guide
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Akshaykamble-work/selenium-learning-guide.git
+   ```
+2. Open the project in Eclipse/IntelliJ
+3. Install dependencies using Maven:
+   ```sh
+   mvn clean install
+   ```
+4. Run the test cases:
+   ```sh
+   mvn test
+   ```
+5. Generate Allure Report:
+   ```sh
+   mvn allure:serve
+   ```
+6. View test results in Jenkins (if configured)
+
+---
+
+## 🎯 Contributing
+Contributions are welcome! Feel free to raise issues or submit PRs.
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
+
+---
+## WorkFlow 🎯 
+
+<img width="1024" alt="Screenshot 2023-10-31 at 12 27 14 PM" src="https://github.com/PramodDutta/AdvanceSeleniumFrameworkTTA/assets/1409610/02b0ef3b-1165-46cf-8c9d-89e41b17032f">`mvn test -Dsurefire.suiteXmlFiles=testng.xml`<img width="1215" alt="Screenshot 2023-10-31 at 12 27 28 PM" src="https://github.com/PramodDutta/AdvanceSeleniumFrameworkTTA/assets/1409610/b0905741-d88d-4559-93c2-65433e668170">
+
+## 📞 Contact
+For queries or discussions, reach out via:
+- LinkedIn: [Akshay Kamble](https://www.linkedin.com/in/akshay-kamble-k01/)
+- GitHub: [Akshay Kamble](https://github.com/Akshaykamble-work)
